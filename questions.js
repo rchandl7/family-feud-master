@@ -95,7 +95,7 @@ var answers_rounds = [
 
 // multiplicator for the points gained in a round
 // format: indexed by round, value is multiplicator
-var multiplicator = [1, 1, 2, 3];
+var multiplicator = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2];
 		
 
 // questions for finals
