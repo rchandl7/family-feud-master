@@ -47,12 +47,12 @@ var answers_rounds = [
 		['Intern', 10]
 	],[
 		['Germany', 20],
-		['France', 29],
-		['Bahamas', 19],
+		['France', 20],
+		['Bahamas', 20],
 		['Belgium', 10],
-		['Netherlands', 29],
-		['Argentina', 19],
-		['St. Lucia', 10]
+		['Netherlands', 15],
+		['Argentina', 10],
+		['St. Lucia', 5]
 	],[
 		['Atlanta United', 25],
 		['Atlanta Braves', 25],
