@@ -21,6 +21,13 @@ var questions_rounds = [
 	'Name somewhere that Thomas or Ricky has lived',
 	'Name a job Thomas or Ricky has had on MML',
 	'Name a country Thomas or Ricky has visited',
+	'Question 4',
+	'Question 5',
+	'Question 6',
+	'Question 7',
+	'Question 8',
+	'Question 9',
+	'Question 10',
 ];
 
 // answers to the questions for rounds
@@ -41,6 +48,44 @@ var answers_rounds = [
 		['TBD', 3]
 	],[
 		['USA', 34],
+		['TBD', 29],
+		['TBD', 19],
+		['TBD', 10]
+	],[
+		['4', 50],
+		['TBD', 36],
+		['TBD', 7],
+		['TBD', 4],
+		['TBD', 3]
+	],[
+		['5', 34],
+		['TBD', 29],
+		['TBD', 19],
+		['TBD', 10]
+	],[
+		['6', 50],
+		['TBD', 36],
+		['TBD', 7],
+		['TBD', 4],
+		['TBD', 3]
+	],[
+		['7', 34],
+		['TBD', 29],
+		['TBD', 19],
+		['TBD', 10]
+	],[
+		['8', 50],
+		['TBD', 36],
+		['TBD', 7],
+		['TBD', 4],
+		['TBD', 3]
+	],[
+		['9', 34],
+		['TBD', 29],
+		['TBD', 19],
+		['TBD', 10]
+	],[
+		['10', 34],
 		['TBD', 29],
 		['TBD', 19],
 		['TBD', 10]
