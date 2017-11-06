@@ -28,6 +28,7 @@ var questions_rounds = [
 	'Question 8',
 	'Question 9',
 	'Question 10',
+	'Final Results',
 ];
 
 // answers to the questions for rounds
@@ -89,13 +90,18 @@ var answers_rounds = [
 		['TBD', 29],
 		['TBD', 19],
 		['TBD', 10]
+	],[
+		['results', 34],
+		['TBD', 29],
+		['TBD', 19],
+		['TBD', 10]
 	]
 ];
 
 
 // multiplicator for the points gained in a round
 // format: indexed by round, value is multiplicator
-var multiplicator = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2];
+var multiplicator = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2];
 		
 
 // questions for finals

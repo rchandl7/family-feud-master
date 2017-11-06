@@ -596,7 +596,7 @@ along with Clan Contest.  If not, see http://www.gnu.org/licenses/.
 	<input type="button" id="btn_goto_rounds" value="start first round" onclick="goto_screen('rounds');"></input>
 </div>
 
-<!-- round 1 to 4 -->
+<!-- round 1 to 10 -->
 <div class="screen" id="view_rounds">
 	<h2>Round <span id="round"></span></h2>
 	<h3>Answers</h3>
@@ -611,6 +611,7 @@ along with Clan Contest.  If not, see http://www.gnu.org/licenses/.
 	<input type="button" id="btn_right_wins" value="right team wins" onclick="team_won_round(1);"></input><br />
 	<input type="button" id="btn_next_round" value="go to next round" onclick="goto_next_round();"></input>
 	<input type="button" id="btn_goto_finals" value="go to finals" onclick="goto_screen('finals');"></input>
+	<input type="button" id="btn_goto_end" value="Show end of game screen" onclick="goto_screen('end');"></input>
 </div>
 
 <!-- finals -->
@@ -630,6 +631,8 @@ along with Clan Contest.  If not, see http://www.gnu.org/licenses/.
 	<h3>End of game</h3>
 	<input type="button" id="btn_goto_end" value="Show end of game screen" onclick="goto_screen('end');"></input>
 </div>
+
+<div class="screen" id="view_results"
 
 <!-- end -->
 <div class="screen" id="view_end">
