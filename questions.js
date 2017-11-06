@@ -55,7 +55,7 @@ var multiplicator = [1, 1, 2, 3];
 
 // questions for finals
 var questions_finals = [
-	'Name a place where it\'s hot',
+	'Name a place where its hot',
 	'Name a well known sight in New York',
 	'Name something that can be found in a pond',
 	'Name something that can be shattered'
