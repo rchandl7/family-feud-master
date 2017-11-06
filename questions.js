@@ -19,15 +19,15 @@
 // questions for rounds
 var questions_rounds = [
 	'Name somewhere that Thomas or Ricky has lived',
-	'Name a job Thomas or Ricky has had on MML',
+	'Name a job or role Thomas or Ricky has had in NCAA Digital',
 	'Name a country Thomas or Ricky has visited',
-	'Question 4',
-	'Question 5',
-	'Question 6',
-	'Question 7',
-	'Question 8',
-	'Question 9',
-	'Question 10',
+	'Name a sports team they are a fan of…',
+	'Name something Thomas or Ricky might do on a weekend…',
+	'High school activities',
+	'Name a clothing brand you might see them wearing around the office…',
+	'Favorite foods',
+	'Favorite sports to watch',
+	'Name a fear of either Thomas or Ricky…',
 	'Final Results',
 ];
 
@@ -35,61 +35,66 @@ var questions_rounds = [
 // format: dimension 1 = round, dimension 2 = question, dimension 3 = [answer, points]
 var answers_rounds = [
 	[
-		['Atlanta', 49],
-		['test2', 22],
-		['test3', 15],
-		['test4', 7],
-		['test5', 4], 
-		['test6', 3]
+		['Atlanta', 50],
+		['Boston', 25],
+		['New York City', 15],
+		['Cherokee County GA', 10]
 	],[
-		['Senior Manager, Business Operations', 50],
-		['Technical Product Manager', 36],
-		['TBD', 7],
-		['TBD', 4],
-		['TBD', 3]
+		['Business Operations', 30],
+		['Tech Product Manager', 30],
+		['Associate Prod Manager', 15],
+		['Quality Assurance', 15],
+		['Intern', 10]
 	],[
-		['USA', 34],
-		['TBD', 29],
-		['TBD', 19],
-		['TBD', 10]
+		['Germany', 20],
+		['France', 29],
+		['Bahamas', 19],
+		['Belgium', 10],
+		['Netherlands', 29],
+		['Argentina', 19],
+		['St. Lucia', 10]
 	],[
-		['4', 50],
-		['TBD', 36],
-		['TBD', 7],
-		['TBD', 4],
-		['TBD', 3]
+		['Atlanta United', 25],
+		['Atlanta Braves', 25],
+		['NE Patriots', 20],
+		['US Soccer', 15],
+		['Atlanta Falcons', 15]
 	],[
-		['5', 34],
-		['TBD', 29],
-		['TBD', 19],
-		['TBD', 10]
+		['Play Tennis', 30],
+		['Go for a run', 25],
+		['Play Golf', 25],
+		['Drink Beer', 10],
+		['Movies', 10]
 	],[
-		['6', 50],
-		['TBD', 36],
-		['TBD', 7],
-		['TBD', 4],
-		['TBD', 3]
+		['Debate team', 35],
+		['Basketball', 20],
+		['Video Games', 20],
+		['Soccer', 15],
+		['Newspaper', 10]
 	],[
-		['7', 34],
-		['TBD', 29],
-		['TBD', 19],
-		['TBD', 10]
+		['Barbecue', 30],
+		['Ice Cream', 20],
+		['Hummus', 20],
+		['Chic-Fil-A', 15],
+		['French fries', 15]
 	],[
-		['8', 50],
-		['TBD', 36],
-		['TBD', 7],
-		['TBD', 4],
-		['TBD', 3]
+		['Under Armour', 30],
+		['Patagonia', 25],
+		['LL Bean', 25],
+		['Nike', 10],
+		['NCAA/MML Swag', 10]
 	],[
-		['9', 34],
-		['TBD', 29],
-		['TBD', 19],
-		['TBD', 10]
+		['Football (T, R)', 30],
+		['Soccer (T)', 25],
+		['Basketball (R)', 20],
+		['Tennis', 15],
+		['Golf (R)', 10]
 	],[
-		['10', 34],
-		['TBD', 29],
-		['TBD', 19],
-		['TBD', 10]
+		['Heights/Falling (T, R)', 30],
+		['Public Speaking (R)', 25],
+		['Bugs (T)', 15],
+		['Being Wrong (T)', 15],
+		['Tight/Dark Places (R)', 15]
 	],[
 		['results', 34],
 		['TBD', 29],
