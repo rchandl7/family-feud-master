@@ -30,6 +30,7 @@
 	
 	/* general style */
 	background-color: black;
+	background: -moz-linear-gradient(bottom right, blue, navy); /* For Firefox 3.6 to 15 */
 	color: white;
 	font-family: sans-serif;
 }
@@ -126,5 +127,10 @@ table {
 
 .invisible {
 	visibility: hidden;
+}
+
+.misses {
+	font-size: 80px;
+	color: red;
 }
 
