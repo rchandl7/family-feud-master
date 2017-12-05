@@ -113,8 +113,8 @@ var multiplicator = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2];
 var questions_finals = [
 	'Name a common NCAA mascot',
 	'Name an NCAA sport',
-	'Name a ',
-	'Name something that can be shattered'
+	'Name a common upset seed in the first round of tournament',
+	'Name a college football bowl game'
 ];
 
 
@@ -129,23 +129,23 @@ var answers_finals = [
 		['Knights', 10],
 		['Bears', 9]
 	],[
-		['Football', 30],
-		['Basketball', 31],
+		['Football', 31],
+		['Basketball', 30],
 		['Soccer', 26],
 		['Ice Hockey', 9],
 		['Track and Field', 3]
 	],[
-		['', 37],
-		['', 24],
-		['', 23],
-		['', 16],
-		['', 2],
+		['12', 37],
+		['11', 24],
+		['13', 23],
+		['14', 16],
+		['15', 2],
 	],[
-		['Vase', 29],
-		['Glass', 28],
-		['Economy', 16],
-		['Building', 15],
-		['Myth', 12],
+		['Sugar Bowl', 29],
+		['Rose Bowl', 28],
+		['Cotton Bowl', 16],
+		['Fiesta', 15],
+		['Orange', 12],
 	]
 ];
 
