@@ -35,68 +35,68 @@ var questions_rounds = [
 // format: dimension 1 = round, dimension 2 = question, dimension 3 = [answer, points]
 var answers_rounds = [
 	[
-		['Atlanta', 50],
-		['Boston', 25],
-		['New York City', 15],
-		['Cherokee County GA', 10]
+		['Atlanta [T,R]', 50],
+		['Boston [T]', 25],
+		['New York City [T]', 15],
+		['Cherokee County GA [R]', 10]
 	],[
-		['Business Operations', 30],
-		['Tech Product Manager', 30],
-		['Associate Prod Manager', 15],
-		['Quality Assurance', 15],
+		['Business Operations [T]', 30],
+		['Tech Product Manager [R]', 30],
+		['Associate Prod Manager [T]', 15],
+		['Quality Assurance [R]', 15],
 		['Intern', 10]
 	],[
-		['Germany', 20],
-		['France', 20],
-		['Bahamas', 20],
-		['Belgium', 10],
-		['Netherlands', 15],
-		['Argentina', 10],
-		['St. Lucia', 5]
+		['Germany [T]', 20],
+		['France [T]', 20],
+		['Bahamas [R]', 20],
+		['Belgium [T]', 10],
+		['Netherlands [T]', 15],
+		['Argentina [T]', 10],
+		['St. Lucia [R]', 5]
 	],[
-		['Atlanta United', 25],
-		['Atlanta Braves', 25],
-		['NE Patriots', 20],
-		['US Soccer', 15],
-		['Atlanta Falcons', 15]
+		['Atlanta United [T]', 25],
+		['Atlanta Braves [R]', 25],
+		['NE Patriots [T]', 20],
+		['US Soccer [T]', 15],
+		['Atlanta Falcons [R]', 15]
 	],[
-		['Play Tennis', 30],
-		['Go for a run', 25],
-		['Play Golf', 25],
-		['Drink Beer', 10],
-		['Movies', 10]
+		['Play Tennis [T,R]', 30],
+		['Go for a run [T]', 25],
+		['Play Golf [R]', 25],
+		['Drink Beer [T,R]', 10],
+		['Movies [R]', 10]
 	],[
-		['Debate team', 35],
-		['Basketball', 20],
-		['Video Games', 20],
-		['Soccer', 15],
-		['Newspaper', 10]
+		['Debate team [T]', 35],
+		['Basketball [R]', 20],
+		['Video Games [R]', 20],
+		['Soccer [T]', 15],
+		['Newspaper [T]', 10]
 	],[
-		['Barbecue', 30],
-		['Ice Cream', 20],
-		['Hummus', 20],
-		['Chic-Fil-A', 15],
-		['French fries', 15]
+		['Barbecue [R]', 30],
+		['Ice Cream [T]', 20],
+		['Hummus [T]', 20],
+		['Chic-Fil-A [R]', 15],
+		['French fries [T]', 15]
 	],[
-		['Under Armour', 30],
-		['Patagonia', 25],
-		['LL Bean', 25],
-		['Nike', 10],
-		['NCAA/MML Swag', 10]
+		['Under Armour [R]', 30],
+		['Patagonia [T]', 25],
+		['LL Bean [T]', 25],
+		['Nike [R]', 10],
+		['NCAA/MML Swag [T,R]', 10]
 	],[
-		['Football (T, R)', 30],
-		['Soccer (T)', 25],
-		['Basketball (R)', 20],
-		['Tennis', 15],
-		['Golf (R)', 10]
+		['Football [T, R]', 30],
+		['Soccer [T]', 25],
+		['Basketball [R]', 20],
+		['Tennis [T]', 15],
+		['Golf [R]', 10]
 	],[
-		['Heights/Falling (T, R)', 30],
-		['Public Speaking (R)', 25],
-		['Bugs (T)', 15],
-		['Being Wrong (T)', 15],
-		['Tight/Dark Places (R)', 15]
+		['Heights/Falling [T, R]', 30],
+		['Public Speaking [R]', 25],
+		['Bugs [T]', 15],
+		['Being Wrong [T]', 15],
+		['Tight/Dark Places [R]', 15]
 	],[
-		['results', 34],
+		['show final results', 34],
 		['TBD', 29],
 		['TBD', 19],
 		['TBD', 10]
@@ -111,35 +111,35 @@ var multiplicator = [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2];
 
 // questions for finals
 var questions_finals = [
-	'Name a place where its hot',
-	'Name a well known sight in New York',
-	'Name something that can be found in a pond',
+	'Name a common NCAA mascot',
+	'Name an NCAA sport',
+	'Name a ',
 	'Name something that can be shattered'
 ];
 
 
 // answers to the questions for the finals	
 // format: dimension 1 = question, dimension 2 = answer, dimension 3 = [answer, points]
-// must have five questions
+// must have five answers
 var answers_finals = [
 	[
-		['Sahara', 35],
-		['Hawaii', 26],
-		['Bahamas', 10],
-		['Oven', 10],
-		['Sauna', 9]
+		['Eagles', 35],
+		['Tigers', 26],
+		['Bulldogs', 10],
+		['Knights', 10],
+		['Bears', 9]
 	],[
-		['Statue of Liberty', 30],
-		['Empire State Building', 31],
-		['Central Park', 26],
-		['Brooklyn Bridge', 9],
-		['Chinatown', 3]
+		['Football', 30],
+		['Basketball', 31],
+		['Soccer', 26],
+		['Ice Hockey', 9],
+		['Track and Field', 3]
 	],[
-		['Water Lily', 37],
-		['Carp', 24],
-		['Water pump', 19],
-		['Fountain', 12],
-		['Stones', 8],
+		['', 37],
+		['', 24],
+		['', 23],
+		['', 16],
+		['', 2],
 	],[
 		['Vase', 29],
 		['Glass', 28],
@@ -151,5 +151,5 @@ var answers_finals = [
 
 
 // timer duration for first and second player in finals, given in seconds
-var timers = [20, 25];
+var timers = [30, 45];
 
